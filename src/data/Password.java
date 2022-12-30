@@ -1,6 +1,6 @@
 package data;
 
-final public class Password {
+final public class  Password {
 
 
     private final String code;
