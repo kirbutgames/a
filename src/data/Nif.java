@@ -1,9 +1,17 @@
 package data;
 
+import java.lang.reflect.Array;
+import java.util.NoSuchElementException;
+
 final public class Nif {
     // The tax identification number in the Spanish state.
     private final String nif;
-    public Nif (String code) { this.nif = code; }
+    public Nif (String code) {
+        if(code == null || code.length() != 9){
+            throw new NoSuchElementException();
+        }
+        this.nif = code;
+    }
     public String getNif () { return nif; }
     @Override
     public boolean equals (Object o) {
