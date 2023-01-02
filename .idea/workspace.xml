@@ -4,37 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="260f87ef-375d-4dc4-a93f-326db5aff987" name="Changes" comment="publicadministrations class implemented">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/AnyMobileRegisteredException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/BadPathException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/ConnectException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/DigitalSignatureException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/IncompleteFormException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/IncorrectValDateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/IncorrectVerificationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/InsufficientBalanceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/NifNotRegisteredException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/NotValidPINException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/NotValidPaymentDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exception/PrintingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/JusticeMinistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/citizenmanagementplatform/UnifiedPlatform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/publicadministratioon/CardPaymentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/publicadministratioon/CitizenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/publicadministratioon/ConvictionsCollTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/publicadministratioon/CreditCardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/publicadministratioon/CrimConvictionTest.java" afterDir="false" />
+    <list default="true" id="260f87ef-375d-4dc4-a93f-326db5aff987" name="Changes" comment="Publicadministratioon classes test">
+      <change afterPath="$PROJECT_DIR$/test/Testcitizenmanagement/UnifiedPlatformTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/CAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CAS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/CertificationAuthority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CertificationAuthority.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/GPD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/GPD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/JuciticeMinistry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/publicadministratioon/CardPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/publicadministratioon/CardPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/publicadministratioon/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/publicadministratioon/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/publicadministratioon/CrimConviction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/publicadministratioon/CrimConviction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/publicadministratioon/CrimConvictionsColl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/publicadministratioon/CrimConvictionsColl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/publicadministratioon/PDFDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/publicadministratioon/PDFDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/citizenmanagementplatform/UnifiedPlatform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/citizenmanagementplatform/UnifiedPlatform.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Nif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Nif.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/publicadministratioon/Citizen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/publicadministratioon/Citizen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +77,7 @@
       <recent name="Services" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConvictionsCollTest">
+  <component name="RunManager" selected="JUnit.UnifiedPlatformTest.Not_registered_Cert">
     <configuration name="ConvictionsCollTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practica" />
       <extension name="coverage">
@@ -150,22 +125,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreditCardTest.ToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Practica" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="publicadministratioon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="publicadministratioon" />
-      <option name="MAIN_CLASS_NAME" value="publicadministratioon.CreditCardTest" />
-      <option name="METHOD_NAME" value="ToString" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CrimConvictionTest.ToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practica" />
       <extension name="coverage">
@@ -182,13 +141,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UnifiedPlatformTest.Not_registered_Cert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testcitizenmanagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcitizenmanagement" />
+      <option name="MAIN_CLASS_NAME" value="Testcitizenmanagement.UnifiedPlatformTest" />
+      <option name="METHOD_NAME" value="Not_registered_Cert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UnifiedPlatformTest.Not_registered_Cert" />
         <item itemvalue="JUnit.ConvictionsCollTest" />
         <item itemvalue="JUnit.ConvictionsCollTest.getCriminalConvictionTest" />
         <item itemvalue="JUnit.ConvictionsCollTest.moveDocTest" />
         <item itemvalue="JUnit.CrimConvictionTest.ToString" />
-        <item itemvalue="JUnit.CreditCardTest.ToString" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672668302304</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Publicadministratioon classes test">
+      <created>1672689173292</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672689173292</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -338,7 +320,8 @@
     <MESSAGE value="Create the interfaces of the package Services" />
     <MESSAGE value="implementation publicadministrations" />
     <MESSAGE value="publicadministrations class implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="publicadministrations class implemented" />
+    <MESSAGE value="Publicadministratioon classes test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Publicadministratioon classes test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

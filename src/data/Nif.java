@@ -1,11 +1,14 @@
 package data;
 
 import java.lang.reflect.Array;
+import java.util.Date;
 import java.util.NoSuchElementException;
 
 final public class Nif {
     // The tax identification number in the Spanish state.
     private final String nif;
+    private Date valiDate;
+
     public Nif (String code) {
         if(code == null || code.length() != 9){
             throw new NoSuchElementException();

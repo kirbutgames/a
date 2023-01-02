@@ -20,5 +20,21 @@ public class Citizen {
                                                     "name='" +name +
                                                     "address='" +address +
                                                     "mobileNumb='" +mobileNumb+ '\'' + '}';} // converts to String
+
+    public Nif getNif() {
+        return nif;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getMobileNumb() {
+        return mobileNumb;
+    }
 }
 
