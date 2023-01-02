@@ -25,8 +25,8 @@ public class PDFDocument { // Represents a PDF document
 
     // the getters
     @Override
-    public String toString () {return "CardPayment{" + "creatDate='" + creatDate +
-                                                        "path='" +path + '}';} // converts to String// Converts to String members Date & DocPath
+    public String toString () {return "CardPayment{" + "creatDate='" + creatDate.toString() +
+                                                        "path='" +path.toString() + '}';} // converts to String// Converts to String members Date & DocPath
     // To implement only optionally
     public void moveDoc (DocPath destPath) throws IOException{
         File files = new File(destPath.getDocPath());

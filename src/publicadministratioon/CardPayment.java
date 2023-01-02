@@ -36,8 +36,8 @@ public class CardPayment {
     }
     @Override
     public String toString () {return "CardPayment{" + "refrence='" + reference +
-                                                        "Nif='" +nif +
-                                                        "date='" +date +
-                                                        "import='" +imports+ '}';} // converts to String
+                                                        ",Nif='" +nif.getNif() +
+                                                        ",date='" +date.toString() +
+                                                        ",import='" +imports+ '}';} // converts to String
 }
 

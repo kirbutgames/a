@@ -27,7 +27,7 @@ public class CrimConviction { // Represents a criminal conviction registered
         return sentence;
     }
     @Override
-    public String toString () {return "CardPayment{" + "commitDate='" + commitDate +
+    public String toString () {return "CardPayment{" + "commitDate='" + commitDate.toString() +
                                                         "offense='" +offense +
                                                         "sentence='" +sentence+ '}';} // converts to String
 }

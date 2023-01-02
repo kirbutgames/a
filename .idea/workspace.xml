@@ -4,15 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="260f87ef-375d-4dc4-a93f-326db5aff987" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/publicadministratioon/CrimConviction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/publicadministratioon/CriminalRecordCertf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/publicadministratioon/PDFDocument.java" afterDir="false" />
+    <list default="true" id="260f87ef-375d-4dc4-a93f-326db5aff987" name="Changes" comment="publicadministrations class implemented">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exception/AnyMobileRegisteredException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exception/BadPathException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exception/ConnectException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exception/DigitalSignatureException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exception/IncompleteFormException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exception/IncorrectValDateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exception/IncorrectVerificationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exception/InsufficientBalanceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exception/NifNotRegisteredException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exception/NotValidPINException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exception/NotValidPaymentDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exception/PrintingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/JusticeMinistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/citizenmanagementplatform/UnifiedPlatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/publicadministratioon/CardPaymentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/publicadministratioon/CitizenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/publicadministratioon/ConvictionsCollTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/publicadministratioon/CreditCardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/publicadministratioon/CrimConvictionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/CAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CAS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/CertificationAuthority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/CertificationAuthority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/GPD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/GPD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/JuciticeMinistry.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/publicadministratioon/CardPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/publicadministratioon/CardPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/publicadministratioon/Citizen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/publicadministratioon/Citizen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/publicadministratioon/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/publicadministratioon/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/publicadministratioon/CrimConviction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/publicadministratioon/CrimConviction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/publicadministratioon/CrimConvictionsColl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/publicadministratioon/CrimConvictionsColl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/publicadministratioon/PDFDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/publicadministratioon/PDFDocument.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -53,110 +75,120 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ToolWindowGit.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowGit.ShowToolbar": "false",
+    "last_directory_selection": "C:/Users/popch/Documents/Pruebas unitarias/Practica/src",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
     ]
   }
-}</component>
-  <component name="RunManager" selected="JUnit.PasswordTest">
-    <configuration name="DigitalSignatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Exception" />
+      <recent name="Services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ConvictionsCollTest">
+    <configuration name="ConvictionsCollTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practica" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="publicadministratioon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.DigitalSignatureTest" />
+      <option name="PACKAGE_NAME" value="publicadministratioon" />
+      <option name="MAIN_CLASS_NAME" value="publicadministratioon.ConvictionsCollTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DocPathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConvictionsCollTest.getCriminalConvictionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practica" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="publicadministratioon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.DocPathTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DocPathTest.TesttoString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Practica" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.DocPathTest" />
-      <option name="METHOD_NAME" value="TesttoString" />
+      <option name="PACKAGE_NAME" value="publicadministratioon" />
+      <option name="MAIN_CLASS_NAME" value="publicadministratioon.ConvictionsCollTest" />
+      <option name="METHOD_NAME" value="getCriminalConvictionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NifTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConvictionsCollTest.moveDocTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practica" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="publicadministratioon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.NifTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="publicadministratioon" />
+      <option name="MAIN_CLASS_NAME" value="publicadministratioon.ConvictionsCollTest" />
+      <option name="METHOD_NAME" value="moveDocTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreditCardTest.ToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Practica" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="publicadministratioon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="data" />
-      <option name="MAIN_CLASS_NAME" value="data.PasswordTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="publicadministratioon" />
+      <option name="MAIN_CLASS_NAME" value="publicadministratioon.CreditCardTest" />
+      <option name="METHOD_NAME" value="ToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrimConvictionTest.ToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Practica" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="publicadministratioon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="publicadministratioon" />
+      <option name="MAIN_CLASS_NAME" value="publicadministratioon.CrimConvictionTest" />
+      <option name="METHOD_NAME" value="ToString" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PasswordTest" />
-        <item itemvalue="JUnit.DocPathTest.TesttoString" />
-        <item itemvalue="JUnit.DocPathTest" />
-        <item itemvalue="JUnit.NifTest" />
-        <item itemvalue="JUnit.DigitalSignatureTest" />
+        <item itemvalue="JUnit.ConvictionsCollTest" />
+        <item itemvalue="JUnit.ConvictionsCollTest.getCriminalConvictionTest" />
+        <item itemvalue="JUnit.ConvictionsCollTest.moveDocTest" />
+        <item itemvalue="JUnit.CrimConvictionTest.ToString" />
+        <item itemvalue="JUnit.CreditCardTest.ToString" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672626212321</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="publicadministrations class implemented">
+      <created>1672668302304</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672668302304</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -298,6 +337,22 @@
     <MESSAGE value="Test de classes Package data" />
     <MESSAGE value="Create the interfaces of the package Services" />
     <MESSAGE value="implementation publicadministrations" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementation publicadministrations" />
+    <MESSAGE value="publicadministrations class implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="publicadministrations class implemented" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/test/publicadministratioon/CitizenTest.java</url>
+          <line>11</line>
+          <properties class="publicadministratioon.Test">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

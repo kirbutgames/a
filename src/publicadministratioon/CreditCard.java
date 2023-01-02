@@ -38,9 +38,9 @@ public class CreditCard {
         return cardNumb;
     }
     @Override
-    public String toString () {return "CreditCard{" + "Nif='" +nif +
-                                                    "expirDate='" +expirDate +
-                                                    "svc='" +svc +
-                                                    "cardNumb='" +cardNumb+ '}';} // converts to String
+    public String toString () {return "CreditCard{" + "Nif='" +nif.getNif() +
+                                                    ",expirDate='" +expirDate.toString() +
+                                                    ",svc='" +svc.getSmallCode() +
+                                                    ",cardNumb='" +cardNumb+ '}';} // converts to String
 }
 

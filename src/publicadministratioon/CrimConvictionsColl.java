@@ -9,7 +9,7 @@ public class CrimConvictionsColl { // Represents the total criminal convictions 
 
     private  CrimConviction[] convictions;
     private Citizen citizen;
-    private int Num_convictions=0; //number of the criminal convictions of the Citizen
+    private int Num_convictions; //number of the criminal convictions of the Citizen
     public CrimConvictionsColl (CrimConviction[] conv, Citizen per){
         this.convictions=conv;
         this.citizen=per;
@@ -23,6 +23,7 @@ public class CrimConvictionsColl { // Represents the total criminal convictions 
             conv[i] = convictions[i];
         }
         conv[Num_convictions]= crmC;
+        convictions = conv;
         Num_convictions++;
     }
     // Adds a criminal conviction
