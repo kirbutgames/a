@@ -7,9 +7,11 @@ import java.util.Date;
 public class CreditCard {
     // The payment information for using the card via internet
     private final Nif nif; // The nif of the user
-    private final String cardNumb; // The number of the credit card
+
     private final Date expirDate; // The expiration date for the credit card
     private final SmallCode svc; // The Safe Verification Code
+
+    private final String cardNumb;
     public CreditCard (Nif nif, String cNum, Date d, SmallCode c) {
         this.nif=nif;
         this.cardNumb = cNum;
@@ -18,7 +20,27 @@ public class CreditCard {
     }
     // Initializes attributes
     // the getters
+
+
+    public Nif getNif() {
+        return nif;
+    }
+
+    public Date getExpirDate() {
+        return expirDate;
+    }
+
+    public SmallCode getSvc() {
+        return svc;
+    }
+
+    public String getCardNumb() {
+        return cardNumb;
+    }
     @Override
-    public String toString () { . . . } // converts to String
+    public String toString () {return "CreditCard{" + "Nif='" +nif +
+                                                    "expirDate='" +expirDate +
+                                                    "svc='" +svc +
+                                                    "cardNumb='" +cardNumb+ '}';} // converts to String
 }
 

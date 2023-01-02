@@ -16,6 +16,9 @@ public class Citizen {
     }
 // Initializes attributes
 // the getters
-    public String toString (){} // converts to String
+    public String toString (){return "Citizen{" + "Nif='" +nif +
+                                                    "name='" +name +
+                                                    "address='" +address +
+                                                    "mobileNumb='" +mobileNumb+ '\'' + '}';} // converts to String
 }
 

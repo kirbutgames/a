@@ -10,14 +10,34 @@ public class CardPayment {
     private final Nif nif; // The nif of the user
     private final Date date; // The date of the operation
     private final BigDecimal imports; // The import of the payment
-    public CardPayment (Nif nif, BigDecimal imp) {
+    public CardPayment (String ref,Nif nif, BigDecimal imp, Date date) {
         this.nif=nif;
         this.imports=imp;
+        this.reference=ref;
+        this.date=date;
 
     }
 // Initializes attributes
  // the getters
+    public String getReference() {
+        return reference;
+    }
+
+    public Nif getNif() {
+        return nif;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public BigDecimal getImports() {
+        return imports;
+    }
     @Override
-    public String toString () { . . . } // converts to String
+    public String toString () {return "CardPayment{" + "refrence='" + reference +
+                                                        "Nif='" +nif +
+                                                        "date='" +date +
+                                                        "import='" +imports+ '}';} // converts to String
 }
 
